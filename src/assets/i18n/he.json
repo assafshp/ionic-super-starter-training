@@ -10,8 +10,8 @@
   "TAB3_TITLE": "הגדרות",
 
   "MAP_TITLE": "מפה",
-
-  "TUTORIAL_SLIDE1_TITLE": "ברוכים הבאים ל-Ionic Super Starter",
+  "TUTORIAL_SKIP_BUTTON": "דלג",
+  "TUTORIAL_SLIDE1_TITLE": "ברוכים הבאים ל-wis2biz",
   "TUTORIAL_SLIDE1_DESCRIPTION": "ה-<b>Ionic Super Starter</b> הוא Starter מלא בתכונות עם הרבה דפים מוכנים ותרגולים הכי טובים.",
 
   "TUTORIAL_SLIDE2_TITLE": "איך להשתמש ב-Super Starter",
@@ -19,6 +19,11 @@
 
   "TUTORIAL_SLIDE3_TITLE": "התחלה",
   "TUTORIAL_SLIDE3_DESCRIPTION": "צריך עזרה? תבדקו את ה-README של ה-Super Starter להדרכה מלאה.",
+
+  "TUTORIAL_SLIDE4_TITLE": "התחלה",
+  "TUTORIAL_SLIDE4_DESCRIPTION": "צריך עזרה? תבדקו את ה-README של ה-Super Starter להדרכה מלאה.",
+
+  "TUTORIAL_CONTINUE_BUTTON": "התחל",
 
   "SETTINGS_TITLE": "הגדרות",
   "SETTINGS_OPTION1": "אופציה 1",

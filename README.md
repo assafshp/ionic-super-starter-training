@@ -94,3 +94,17 @@ code (ex: en/gb/de/es/etc.).
 
 To change the language of the app, edit `src/app/app.component.ts` and modify
 `translate.use('en')` to use the LANGCODE from `src/assets/i18n/`
+
+
+### Upload to Production Android
+
+
+```ionic cordova run android --prod --release```
+
+```
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore signing/zinkerz-mobileapps.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk zinkerz-mobileapps -storepass 123456
+```
+```
+zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk platforms/android/app/build/outputs/apk/release/app.apk
+```
+
